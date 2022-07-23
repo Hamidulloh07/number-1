@@ -1,0 +1,29 @@
+.price__item {
+  position: relative;
+}
+
+.price__item:nth-child(1)::before {
+  background-image: url("/image/arrow-repeat.svg");
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  width: 48px;
+  height: 48px;
+  left: -50px;
+  top: 0px;
+  position: absolute;
+  content: "";
+}
+
+.price__item:nth-child(2)::before {
+  background-image: url("/image/code-slash.svg");
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  width: 48px;
+  height: 48px;
+  left: -50px;
+  top: 0px;
+  position: absolute;
+  content: "";
+
+}
+

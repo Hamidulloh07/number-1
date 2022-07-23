@@ -1,0 +1,73 @@
+.quote {
+  background-color: #FAFCFD;
+}
+
+.quote__form-div {
+  border-radius: 8px;
+  background-color: #FFFFFF;
+}
+
+.a {
+  border-radius: 8px 8px 0px 0px;
+}
+
+.input {
+  outline: none;
+  width: 100%;
+  
+}
+
+.quote__list {
+  width: 570px;
+  flex-wrap: wrap;
+  
+}
+
+.quote__list li {
+  position: relative;
+  margin-right: 40px;
+  margin-left: 30px;
+
+  margin-top: 20px;
+}
+.quote__list li a {
+  color: gray;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.quote__item:nth-child(2) {
+  margin-left: 47px;
+
+}
+
+.quote__item::before {
+  background-image: url("/image/check-circle.svg");
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  top: 3px;
+  left: -25px;
+  position: absolute;
+  content: "";
+}
+
+.quote__item:nth-child(4n) {
+  margin-left: 80px;
+}
+
+.quote__title-div {
+
+  margin-left: 100px;
+}
+
+.quote__button {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.label {
+  border-bottom: solid 1px blue;
+}
+
